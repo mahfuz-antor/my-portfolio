@@ -1,0 +1,28 @@
+.main-content{
+    margin: 30px;
+    padding: 10px;
+    border: 3px solid lightseagreen;
+    border-radius: 20px;
+    background-color: gainsboro;
+}
+@media (max-width:500px){.main-content{
+    margin: 0px;
+    padding: 2px;
+    border: 1px solid lightseagreen;
+}}
+
+@media (max-width:350px){.btnFlex{
+display: block;
+width: 120px;
+margin: 0 auto;
+
+}}
+
+.img-round{
+    border-radius: 20px;
+    border: 3px solid lightseagreen;
+}
+
+.bg-black{
+    background-color: black;
+}
