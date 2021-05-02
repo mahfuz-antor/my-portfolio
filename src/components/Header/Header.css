@@ -4,3 +4,8 @@
     margin: 0 auto;
     
     }}
+
+.bgImg{
+background-image: url('../../file-img/bg-img-01.jpg');
+background-repeat: no-repeat;
+}

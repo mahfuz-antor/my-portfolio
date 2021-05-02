@@ -1,5 +1,5 @@
 import React from 'react';
-import mohanonda from '../../file-img/Mohanonda IT.png';
+import mohanonda from '../../file-img/city-travel.png';
 import './Projects.css';
 
 const ProjectsThree = () => {

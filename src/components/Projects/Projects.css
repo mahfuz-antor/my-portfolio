@@ -3,7 +3,7 @@
     padding: 10px;
     border: 3px solid lightseagreen;
     border-radius: 20px;
-    background-color: gainsboro;
+    background-color: rgb(250, 248, 248);
 }
 @media (max-width:500px){.main-content{
     margin: 0px;

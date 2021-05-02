@@ -25,7 +25,7 @@ const contact = () => {
     }
 
     return (
-        <div  style={{backgroundColor:'#11b1c1'}}>
+        <div>
             {/* <Navbar></Navbar> */}
             <div style={{color: 'white',  border: '5px solid #01f1fd', marginRight: '0px', padding: '3%', backgroundColor: 'rgb(17, 177, 193)', margin: '10% 20%', borderRadius:'5px'}} className="row d-flex justify-content-center">
             <div style={formStyle} className="col-md-4">
