@@ -17,9 +17,9 @@ const Footer = () => {
             </div>
             <div className="col-lg-3 col-xl-3 col-md-4  text-white col-sm-12 mt-3 col-xm-12 text-center align-self-center">
                 <h3> <FontAwesomeIcon icon={faShareAlt} size="1x" /> Social:</h3>
-                <a href="https://www.linkedin.com/in/mahfuzur-rahman-0674551ba/" target="-blank" className="pr-2 text-white"><FontAwesomeIcon icon={faLinkedin} size="1x" /></a>
-                <a href="https://www.facebook.com/mdmahfuzurrahman.antor" target="-blank" className="p-2 text-white"><FontAwesomeIcon icon={faFacebook} size="1x" /></a>
-                <a href="https://github.com/mahfuz-antor" target="-blank" className="p-2 text-white"><FontAwesomeIcon icon={faGoogle} size="1x" /></a>
+                <a href="https://www.linkedin.com/in/mahfuzur-rahman-0674551ba/" target="-blank" className="pr-2 text-white"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+                <a href="https://www.facebook.com/mdmahfuzurrahman.antor" target="-blank" className="p-2 text-white"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                <a href="https://github.com/mahfuz-antor" target="-blank" className="p-2 text-white"><FontAwesomeIcon icon={faGoogle} size="2x" /></a>
             </div>
         </div>
         <div style={{backgroundColor: ' #01e6fd',}}>
