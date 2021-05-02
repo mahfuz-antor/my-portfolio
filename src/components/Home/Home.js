@@ -36,7 +36,7 @@ const Home = () => {
                 <a href="/about" style={{border: '10px solid rgb(1, 241, 253)',padding: '15px', borderRadius:'10px', backgroundColor:'#11b1c1'}} className="m-3 col-lg-2 col-xl-2 col-md-3   shadow-lg text-white col-sm-6 col-xm-12 text-center align-self-center"> Know More <br/><FontAwesomeIcon icon={faAngleDoubleRight} size="4x" /> <br/> Click Here</a>
                 </div>
             </div>
-            <h3 style={{backgroundColor: ' rgb(1, 241, 253)', padding: '8px', width: '15%'}} className="text-center mt-5 text-white"> My Projects: </h3>
+            <h3 style={{backgroundColor: ' rgb(1, 241, 253)', padding: '8px', width: '15%'}} className="text-center mt-5 text-white"> Some Projects: </h3>
             <ProjectOne></ProjectOne>
             <ProjectTwo></ProjectTwo>
             <div className="row justify-content-center">

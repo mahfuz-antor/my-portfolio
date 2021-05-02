@@ -28,9 +28,6 @@ const Navbar = () => {
                             <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="/about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="/contact">Contact</Link>
-                        </li>
-                        <li className="nav-item">
                             <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="/resume">Resume</Link>
                         </li>
                     </ul>
