@@ -26,3 +26,9 @@ margin: 0 auto;
 .bg-black{
     background-color: black;
 }
+.resume-container{
+    margin: 40px 100px;
+    padding: 100px;
+    border: 5px solid #01f1fd;
+    border-radius: 10px;
+}

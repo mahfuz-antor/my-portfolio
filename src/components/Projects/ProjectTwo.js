@@ -33,7 +33,7 @@ const ProjectTwo = () => {
                        <p className="d-inline"><span className="mr-2 mb-1 p-2 badge badge-dark">Heroku</span></p>
                        <p className="d-inline"><span className="mr-2 mb-1 p-2 badge badge-dark">Firebase</span></p>
                         <div className="mb-2 mt-3 btnFlex">
-                            <a className="mr-2 p-2 rounded bg-info text-white btnFlex" href="https://full-stack-client-site.web.app/ " target="-blank">Live Link</a>
+                            <a className="mr-2 p-2 rounded bg-info text-white btnFlex" href="https://full-stack-client-site.web.app/" target="-blank">Live Link</a>
                             <a className="mr-2 p-2 rounded  text-white bg-black btnFlex" href="https://github.com/mahfuz-antor/fruits-village" target="-blank">Client Code</a>
                             <a className="mr-2 p-2 rounded  text-white bg-black btnFlex" href="https://github.com/mahfuz-antor/fruits-village-server" target="-blank">Server Code</a>
                         </div>

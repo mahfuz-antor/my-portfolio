@@ -1,0 +1,15 @@
+
+
+    .navLinkFont{
+        font-size: 20px;
+        color:white !important;
+    }
+
+    .navLinkFont:hover{
+        font-size: 18px;
+        color:rgb(151, 8, 247) !important;
+        border-bottom: 3px solid aliceblue; 
+    }
+
+    
+    

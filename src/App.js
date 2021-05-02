@@ -7,11 +7,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
+import Resume from './components/Resume/Resume';
 
 function App() {
   return (
@@ -31,6 +31,9 @@ function App() {
        </Route>
        <Route path="/about">
          <About></About>
+       </Route>
+       <Route path="/resume">
+         <Resume></Resume>
        </Route>
      </Switch>
    </Router>
