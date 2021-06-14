@@ -5,7 +5,7 @@ import '../About/About.css'
 
 const Navbar = () => {
     return (
-        <nav style={{backgroundColor: ' #01e6fd'}} className="navbar d-flex  navbar-expand-lg navbar-light">
+        <nav style={{backgroundColor: ' #000', borderBottom:'1px solid white'}} className="navbar d-flex  navbar-expand-lg navbar-light">
             <div className="container-fluid">
                 <a className="navbar-brand ms-5  text-light" href={resume}><h4>Download Resume</h4></a>
 
@@ -19,16 +19,16 @@ const Navbar = () => {
                             <Link className="nav-link active me-5 navLinkFont" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="/projects">Projcts</Link>
+                            <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="./projects">Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="/blogs">Blogs</Link>
+                            <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="./blogs">Blogs</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="/about">About</Link>
+                            <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="./about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="/resume">Resume</Link>
+                            <Link className="nav-link me-5 text-white navLinkFont" aria-current="page" to="./resume">Resume</Link>
                         </li>
                     </ul>
                 </div>

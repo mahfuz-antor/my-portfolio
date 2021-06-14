@@ -5,7 +5,53 @@
     
     }}
 
-.bgImg{
+/* .bgImg{
 background-image: url('../../file-img/bg-img-01.jpg');
 background-repeat: no-repeat;
-}
+} */
+
+/* for text animation */
+
+/* body{background:black;
+    margin-top:200px;
+    margin-left:50px;} */
+    #typing {
+    
+                width: 0ch;
+                color: white;
+                float: left;
+                font-family: sans-serif;
+                font-weight:bold;
+                font-size: 20px;
+                overflow: hidden;
+                white-space: nowrap;
+                animation: typing 4s steps(26) 1s infinite alternate;
+            }
+            #typing span{
+            color:#06f566;}
+    
+            #crow {
+                float: left;
+    
+          color: white;
+                font-family: consolas;
+                font-weight:bold;
+                font-size: 20px;
+                animation: crow 0.5s linear 1s infinite;
+            }
+            @keyframes typing {
+                from {
+                    width: 0ch;
+                }
+                to {
+                    width: 23ch;
+                }
+            }
+            @keyframes crow {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }

@@ -13,6 +13,7 @@ import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
+import AboutPage from './components/About/AboutPage';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
          <Blogs></Blogs>
        </Route>
        <Route path="/about">
-         <About></About>
+         <AboutPage></AboutPage>
        </Route>
        <Route path="/resume">
          <Resume></Resume>

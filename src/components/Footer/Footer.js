@@ -6,7 +6,7 @@ import { fab, faFacebook, faLinkedin, faGoogle,    } from '@fortawesome/free-bra
 const Footer = () => {
     return (
         <div className="">
-            <div style={{backgroundColor: ' #01e6fd', borderBottom:'1px solid white',  padding:'60px 10px', overflow:'hidden', marginRight:'0px'}} className="row d-flex justify-content-center">
+            <div style={{backgroundColor: ' #000', borderBottom:'1px solid white',  padding:'60px 10px', overflow:'hidden', marginRight:'0px'}} className="row d-flex justify-content-center">
             <div className="col-lg-3 col-xl-3 col-md-4  text-white col-sm-12 mt-3 col-xm-12 text-center align-self-center">
                 <h3 className=""> <FontAwesomeIcon icon={faAddressCard} size="1x" /> Address:</h3>
                 <p>#00,Ranibazar, Rajshahi, Bangladesh</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                 <a href="https://github.com/mahfuz-antor" target="-blank" className="p-2 text-white"><FontAwesomeIcon icon={faGoogle} size="2x" /></a>
             </div>
         </div>
-        <div style={{backgroundColor: ' #01e6fd',}}>
+        <div style={{backgroundColor: ' #000',}}>
             <h5 className="text-center p-3 text-white">Copyright &copy; all right reserved design by Mahfuz Antor </h5>
         </div>
         </div>

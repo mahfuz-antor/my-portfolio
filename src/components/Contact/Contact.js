@@ -4,7 +4,9 @@ import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCoffee, faEnvelopeOpen, faShareAlt, faAddressCard } from '@fortawesome/free-solid-svg-icons';
-import { fab, faFacebook, faLinkedin, faGoogle,    } from '@fortawesome/free-brands-svg-icons';
+import { fab, faFacebook, faLinkedin, faGoogle,  faGithub   } from '@fortawesome/free-brands-svg-icons';
+import './Contact.css';
+import email from '../../file-img/img-01.png'
 
 const contact = () => {
 
@@ -27,31 +29,60 @@ const contact = () => {
     return (
         <div>
             {/* <Navbar></Navbar> */}
-            <div style={{color: 'white',  border: '5px solid #01f1fd', marginRight: '0px', padding: '3%', backgroundColor: 'rgb(17, 177, 193)', margin: '10% 20%', borderRadius:'5px'}} className="row d-flex justify-content-center">
-            <div style={formStyle} className="col-md-4">
+          
+            {/* <Footer></Footer> */}
+
+            <div class="contact1">
+		<div class="container-contact1">
+        <div style={formStyle} className="col-md-4 p-3 text-black">
+        <img style={{ width: '60%'}} src={email} alt="IMG"></img>
                 <h2>Contact Me</h2>
 
                 <p>Email: mahfuz.antor@gmail.com</p>
                 <h3>Follow Me</h3>
-                <a href="https://www.linkedin.com/in/mahfuzur-rahman-0674551ba/" target="-blank" className="pr-2 text-white"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
-                <a href="https://www.facebook.com/mdmahfuzurrahman.antor" target="-blank" className="p-2 text-white"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
-                <a href="https://github.com/mahfuz-antor" target="-blank" className="p-2 text-white"><FontAwesomeIcon icon={faGoogle} size="2x" /></a>
+                <a href="https://www.linkedin.com/in/mahfuzur-rahman-0674551ba/" target="-blank" className="pr-2 text-black"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+                <a href="https://www.facebook.com/mdmahfuzurrahman.antor" target="-blank" className="p-2 text-black"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                <a href="https://github.com/mahfuz-antor" target="-blank" className="p-2 text-black"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
+               
             </div>
-            <div style={formStyle} className="col-md-5">
-                <form  className="contact-form " onSubmit={sendEmail}>
-                    
-                    {/* <label>Name</label>  */}
-                    <input placeholder="Name" type="text" name="user_name" /> <br /> <br />
-                    <input placeholder="Phone" type="text" name="contact_number" /> <br /> <br />
-                    {/* <label>Email</label>  */}
-                    <input placeholder="Email" type="email" name="user_email" /> <br /> <br />
-                    {/* <label>Message</label>  */}
-                    <textarea placeholder="Write Your massage" name="message" /> <br /> <br />
-                    <input type="submit" value="Send" />
-                </form>
-            </div>
-            </div>
-            {/* <Footer></Footer> */}
+
+			<form class="contact1-form validate-form" onSubmit={sendEmail}>
+				{/* <span class="contact1-form-title">
+					Get in touch
+				</span> */}
+
+				<div class="wrap-input1 validate-input" data-validate = "Name is required">
+					<input class="input1" type="text" name="name" placeholder="Name" />
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input class="input1" type="text" name="email" placeholder="Email" />
+					<span class="shadow-input1"></span>
+				</div>
+
+				{/* <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+					<input class="input1" type="text" name="subject" placeholder="Subject" />
+					<span class="shadow-input1"></span>
+				</div> */}
+
+				<div class="wrap-input1 validate-input" data-validate = "Message is required">
+					<textarea class="input1" name="message" placeholder="Message"></textarea>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="container-contact1-form-btn">
+					<button class="contact1-form-btn">
+						<span>
+							Send Email
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
         </div>
     );
 };
