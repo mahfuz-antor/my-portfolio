@@ -19,8 +19,8 @@ const Header = () => {
     return (
         <div style={{ backgroundColor: '#000', marginRight: '0px' }} className="d-flex row justify-content-center pt-5 pb-5 text-white bgImg">
             <div className="col-md-5 align-self-center">
-                <h2 className="offset-2">HI!, I AM MAHFUZ ANTOR</h2>
-                <div className="offset-2 align-self-center" id="typing">I AM A <span>WEB DEVELOPER</span></div>
+                <h2 className="offset-2">HI!, I AM Md. Mahfuzur Rahman</h2>
+                <div className="offset-2 align-self-center" id="typing">I AM A <span>JUNIOR WEB DEVELOPER</span></div>
                 <div className=" align-self-center" id="crow">|</div>
                 <p className="offset-2 mt-5 mb-3 text-white">I am a junior web developer and a web development learner also. Creating a creative web application is my passion.</p>
                 <a className="mr-2 p-2  rounded bg-info text-white btnFlex offset-2" href="/contact" >Hire Me</a>
