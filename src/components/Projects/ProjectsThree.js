@@ -6,7 +6,7 @@ const ProjectsThree = () => {
     return (
         <div>
              <div className="main-content">
-                <div className="row justify-content-center pt-1">
+                <div style={{marginRight: '0px'}} className="row justify-content-center pt-1">
                     <div className="col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xm-12 d-flex">
                         <img className="align-self-center img-round" style={{ height: '80%', width: '100%' }} src={mohanonda} alt="" />
                     </div>

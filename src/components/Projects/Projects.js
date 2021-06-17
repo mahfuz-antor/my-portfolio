@@ -1,6 +1,7 @@
 import React from 'react';
 import mohanonda from '../../file-img/Mohanonda IT.png';
 import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
 import ProjectFive from './ProjectFive';
 import ProjectFour from './ProjectFour';
@@ -11,11 +12,12 @@ import ProjectTwo from './ProjectTwo';
 
 const Projects = () => {
     return (
-        <div style={{backgroundColor:'#11b1c1'}}>
+        <div style={{backgroundColor:'#111'}}>
             <Navbar></Navbar>
-            <div className="d-flex flex-row justify-content-center pt-1">
+            <Header></Header>
+            <div style={{marginRight: '0px'}} className="d-flex flex-row justify-content-center pt-1">
                 
-                <h2 className="text-align-center">Welcome to my Project Details Page.</h2>
+                <h2 className="text-align-center text-white">Welcome to my Project Details Page.</h2>
             </div>
             
             <ProjectOne></ProjectOne>

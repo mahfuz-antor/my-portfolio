@@ -6,7 +6,7 @@ const ProjectFive = () => {
     return (
         <div>
              <div className="main-content">
-                <div className="d-flex flex-row justify-content-center pt-1">
+                <div style={{marginRight: '0px'}} className="d-flex flex-row justify-content-center pt-1">
                     <div className="col-md-5 d-flex">
                         <img className="align-self-center img-round" style={{ height: '80%', width: '100%' }} src={mohanonda} alt="" />
                     </div>

@@ -12,7 +12,7 @@ const Header = () => {
         marginRight: 'auto',
         width: '100%',
         borderRadius: '50%',
-        border: '7px solid #01f1fd'
+        border: '3px solid rgb(6, 245, 102)'
 
     }
 
@@ -22,8 +22,8 @@ const Header = () => {
                 <h2 className="offset-2">HI!, I AM MAHFUZ ANTOR</h2>
                 <div className="offset-2 align-self-center" id="typing">I AM A <span>WEB DEVELOPER</span></div>
                 <div className=" align-self-center" id="crow">|</div>
-                <p className="offset-2 mt-5 text-white">I am a junior web developer and a web development learner also. Creating a creative web application is my passion.</p>
-                <a className="mr-2 p-2 rounded bg-info text-white btnFlex offset-2" href="/contact" >Hire Me</a>
+                <p className="offset-2 mt-5 mb-3 text-white">I am a junior web developer and a web development learner also. Creating a creative web application is my passion.</p>
+                <a className="mr-2 p-2  rounded bg-info text-white btnFlex offset-2" href="/contact" >Hire Me</a>
                 <a className="mr-2 p-2 rounded bg-info text-white btnFlex" href={resume} target="-blank">Resume</a>
 
 

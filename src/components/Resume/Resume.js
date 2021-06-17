@@ -5,7 +5,7 @@ import { fab, faFacebook, faLinkedin, faGoogle, faGithub } from '@fortawesome/fr
 import '../Projects/Projects.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import myImg from '../../file-img/Antor.jpg';
+import myImg from '../../file-img/myImage-2.jpg';
 import Header from '../Header/Header';
 
 const Resume = () => {
@@ -49,9 +49,9 @@ const Resume = () => {
                     <p className="ml-2 text-black"> &#9755; Finally, the admin panel is protected.</p>
                     <h4 className="text-black"> Technologies: <span className="h6 "> HTML5, CSS3, Bootstrap4, React Bootstrap, JavaScript, React.js, Node.js, Express.js, Mongo DB, Github, Heroku, Firebase</span> </h4>
                     <div className="mb-2 mt-3 btnFlex text-black">
-                            <a className="mr-2 p-2 rounded bg-info text-black linkStyle btnFlex" href="https://my-complete-project-25e25.web.app/" target="-blank">Live Link</a>
-                            <a className="mr-2 p-2 rounded  text-black bg-black btnFlex" href="https://github.com/mahfuz-antor/mohanonda-IT" target="-blank">Client Code</a>
-                            <a className="mr-2 p-2 rounded  text-black bg-black btnFlex" href="https://github.com/mahfuz-antor/mohanonda-IT-server" target="-blank">Server Code</a>
+                            <a className="mr-2 p-2 rounded bg-info text-white linkStyle btnFlex" href="https://my-complete-project-25e25.web.app/" target="-blank">Live Link</a>
+                            <a className="mr-2 p-2 rounded  text-white bg-black btnFlex" href="https://github.com/mahfuz-antor/mohanonda-IT" target="-blank">Client Code</a>
+                            <a className="mr-2 p-2 rounded  text-white bg-black btnFlex" href="https://github.com/mahfuz-antor/mohanonda-IT-server" target="-blank">Server Code</a>
                         </div>
                 </div>
                
@@ -66,9 +66,9 @@ const Resume = () => {
                         <p className="ml-2 text-black"> &#9755; A customer can see orders details information.</p>
                     <h4 className="text-black"> Technologies: <span className="h6"> HTML5, CSS3, Bootstrap4, React Bootstrap, JavaScript, React.js, Node.js, Express.js, Mongo DB, Github, Heroku, Firebase</span> </h4>
                     <div className="mb-2 mt-3 btnFlex text-black">
-                            <a className="mr-2 p-2 rounded bg-info text-black btnFlex" href="https://full-stack-client-site.web.app/" target="-blank">Live Link</a>
-                            <a className="mr-2 p-2 rounded  text-black bg-black btnFlex" href="https://github.com/mahfuz-antor/fruits-village" target="-blank">Client Code</a>
-                            <a className="mr-2 p-2 rounded  text-black bg-black btnFlex" href="https://github.com/mahfuz-antor/fruits-village-server" target="-blank">Server Code</a>
+                            <a className="mr-2 p-2 rounded bg-info text-white btnFlex" href="https://full-stack-client-site.web.app/" target="-blank">Live Link</a>
+                            <a className="mr-2 p-2 rounded  text-white bg-black btnFlex" href="https://github.com/mahfuz-antor/fruits-village" target="-blank">Client Code</a>
+                            <a className="mr-2 p-2 rounded  text-white bg-black btnFlex" href="https://github.com/mahfuz-antor/fruits-village-server" target="-blank">Server Code</a>
                         </div>
                 </div>
                 <div>
@@ -80,8 +80,8 @@ const Resume = () => {
                         <p className="ml-2 text-black"> &#9755; A customer can chose the starting and ending place</p>
                     <h4 className="text-black"> Technologies: <span className="h6"> HTML5, CSS3, Bootstrap4, React Bootstrap, JavaScript, React.js, Github, Firebase</span> </h4>
                     <div className="mb-2 mt-3 btnFlex text-black">
-                            <a className="mr-2 p-2 rounded bg-info text-black btnFlex" href="https://react-auth-09.web.app/" target="-blank">Live Link</a>
-                            <a className="mr-2 p-2 rounded  text-black bg-black btnFlex" href="https://github.com/mahfuz-antor/city-travellers" target="-blank"> Code Link</a>
+                            <a className="mr-2 p-2 rounded bg-info text-white btnFlex" href="https://react-auth-09.web.app/" target="-blank">Live Link</a>
+                            <a className="mr-2 p-2 rounded  text-white bg-black btnFlex" href="https://github.com/mahfuz-antor/city-travellers" target="-blank"> Code Link</a>
                         </div>
                 </div>
             </div> <Footer></Footer>
