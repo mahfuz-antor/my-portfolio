@@ -22,10 +22,10 @@ background-repeat: no-repeat;
                 float: left;
                 font-family: sans-serif;
                 font-weight:bold;
-                font-size: 20px;
+                font-size: 15px;
                 overflow: hidden;
                 white-space: nowrap;
-                animation: typing 5s steps(26) 1s infinite alternate;
+                animation: typing 5s steps(20) 1s infinite alternate;
             }
             #typing span{
             color:#06f566;}
@@ -36,7 +36,7 @@ background-repeat: no-repeat;
           color: white;
                 font-family: consolas;
                 font-weight:bold;
-                font-size: 20px;
+                font-size: 15px;
                 animation: crow 0.5s linear 1s infinite;
             }
             @keyframes typing {
@@ -44,7 +44,7 @@ background-repeat: no-repeat;
                     width: 0ch;
                 }
                 to {
-                    width: 30ch;
+                    width: 23ch;
                 }
             }
             @keyframes crow {

@@ -32,9 +32,9 @@ const About = () => {
     // }
 
     return (
-        <div className="">
+        <div className="container">
             
-            <div style={{backgroundColor:'#111'}} className="  ">
+            <div style={{backgroundColor:'#111'}} className="m-2">
             <h1 style={{ borderBottom: '5px solid #fff', padding: '5px' }} className=" text-center pt-5 text-white">About Me </h1>
             
                 {/* <img className=" align-self-center " style={imgStyle} src={myImg} alt="" /> */}
@@ -49,43 +49,43 @@ const About = () => {
 
                 {/* <h3 style={{backgroundColor: ' rgb(1, 241, 253)', padding: '8px', width: '15%'}} className="text-center mt-5 text-white"> Expertise: </h3> */}
 
-                <div style={{marginRight: '0px'}} className="row justify-content-center">
-                <h3 style={{ height:'130px',border: '3px solid #06f566', backgroundColor:'#fff', padding: '15px', borderRadius:'10px'}} className=" m-1 col-lg-2 col-xl-2 col-md-3  text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faHtml5} size="2x" /> <br/> HTML5</h3>
-                <h3 style={{ height:'130px',border: '3px solid #06f566',backgroundColor:'#fff',padding: '15px', borderRadius:'10px',}} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faCss3} size="2x" /> <br/> CSS3</h3>
-                <h3 style={{ height:'130px',padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff'}} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faBootstrap} size="2x" /> <br/> Bootstrap4</h3>
-                <h3 style={{ height:'130px',padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff'}} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faJsSquare} size="2x" /> <br/> JavaScript</h3>
-                <h3 style={{ height:'130px',padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff'}} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faReact} size="2x" /> <br/> React</h3>
+                <div style={{marginRight: '0px'}} className="row justify-content-center animate__animated animate__zoomInLeft">
+                <h3 style={{ height:'130px', boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff', padding: '15px', borderRadius:'10px'}} className=" m-1 col-lg-2 col-xl-2 col-md-3  text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faHtml5} size="2x" /> <br/> HTML5</h3>
+                <h3 style={{ height:'130px', boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff',padding: '15px', borderRadius:'10px',}} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faCss3} size="2x" /> <br/> CSS3</h3>
+                <h3 style={{ height:'130px',padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff'}} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faBootstrap} size="2x" /> <br/> Bootstrap4</h3>
+                <h3 style={{ height:'130px',padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff'}} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faJsSquare} size="2x" /> <br/> JavaScript</h3>
+                <h3 style={{ height:'130px',padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff'}} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faReact} size="2x" /> <br/> React</h3>
                 </div>
 
                 {/* <h3 style={{backgroundColor: ' rgb(1, 241, 253)', padding: '8px', width: '15%'}} className=" text-center mt-5 text-black"> Comfortable: </h3> */}
                 <h2 style={{ padding: '5px'}} className=" text-center mt-5 text-white"> Comfortable: </h2>
 
-                <div style={{marginRight: '0px'}} className="row justify-content-center">
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff'}} className=" m-1 col-lg-2 col-xl-2 col-md-3  shadow-lg  text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faNodeJs} size="2x" /> <br/> Node JS</h3>
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff'}} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={mongo} alt=""/> <br/> Mongo DB</h3>
-                <h3 style={{ height:'130px', padding: '25px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff'}} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center">  React Native </h3>
-                <h3 style={{ height:'130px', padding: '10px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'75px', height: '45px'}} src={jquery} alt=""/> <br/> JQuery</h3>
+                <div style={{marginRight: '0px'}} className="row justify-content-center animate__animated animate__zoomInLeft">
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff'}} className=" m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"><FontAwesomeIcon icon={faNodeJs} size="2x" /> <br/> Node JS</h3>
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff'}} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={mongo} alt=""/> <br/> Mongo DB</h3>
+                <h3 style={{ height:'130px', padding: '25px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff'}} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center">  React Native </h3>
+                <h3 style={{ height:'130px', padding: '10px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'75px', height: '45px'}} src={jquery} alt=""/> <br/> JQuery</h3>
                 </div>
 
                 {/* <h3 style={{backgroundColor: ' rgb(1, 241, 253)', padding: '8px', width: '15%'}} className=" text-center mt-5 text-white"> Familiar: </h3>  */} 
                 <h2 style={{ padding: '5px'}} className=" text-center mt-5 text-white"> Familiar: </h2>
 
-                <div style={{marginRight: '0px'}} className="row justify-content-center">
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className=" m-1 col-lg-2 col-xl-2 col-md-3  shadow-lg  text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={redux} alt=""/> <br/> Redux</h3>
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={sass} alt=""/> <br/> SASS</h3>
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={next} alt=""/> <br/> Next JS</h3>
-                <h3 style={{ height:'130px', padding: '27px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center">  Reducer</h3>
+                <div style={{marginRight: '0px'}} className="row justify-content-center animate__animated animate__zoomInLeft">
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className=" m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={redux} alt=""/> <br/> Redux</h3>
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={sass} alt=""/> <br/> SASS</h3>
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={next} alt=""/> <br/> Next JS</h3>
+                <h3 style={{ height:'130px', padding: '27px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center">  Reducer</h3>
                 </div>
                 {/* <h3 style={{backgroundColor: ' rgb(1, 241, 253)', padding: '8px', width: '15%'}} className=" text-center mt-5 text-black"> Tools: </h3>  */}
                 <h2 style={{ padding: '5px'}} className=" text-center mt-5 text-white"> Tools: </h2>
                 
-                <div style={{marginRight: '0px'}} className="row justify-content-center pb-5">
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className=" m-1 col-lg-2 col-xl-2 col-md-3  shadow-lg  text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={vscode} alt=""/> <br/> VSCode</h3>
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={git} alt=""/> <br/> Git </h3>
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"> <FontAwesomeIcon icon={faNode} size="2x" /> <br/> Node</h3>
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={firebase} alt=""/> <br/> Firebase</h3>
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"><img style={{width:'32px', height: '32px'}} src={heroku} alt=""/> <br/> Heroku </h3>
-                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px', border: '3px solid #06f566',backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3   shadow-lg text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={netlify} alt=""/> <br/> Netlify </h3>
+                <div style={{marginRight: '0px'}} className="row justify-content-center pb-5 animate__animated animate__zoomInLeft">
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className=" m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={vscode} alt=""/> <br/> VSCode</h3>
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={git} alt=""/> <br/> Git </h3>
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"> <FontAwesomeIcon icon={faNode} size="2x" /> <br/> Node</h3>
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={firebase} alt=""/> <br/> Firebase</h3>
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"><img style={{width:'32px', height: '32px'}} src={heroku} alt=""/> <br/> Heroku </h3>
+                <h3 style={{ height:'130px', padding: '15px', borderRadius:'10px',  boxShadow: '0px 0px 15px #06f566', backgroundColor:'#fff' }} className="m-1 col-lg-2 col-xl-2 col-md-3    text-black col-sm-6 col-xm-12 text-center align-self-center"> <img style={{width:'32px', height: '32px'}} src={netlify} alt=""/> <br/> Netlify </h3>
                 </div>
 
                 

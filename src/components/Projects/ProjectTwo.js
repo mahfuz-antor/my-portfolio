@@ -5,8 +5,8 @@ import './Projects.css';
 const ProjectTwo = () => {
     return (
         <div>
-             <div className="main-content">
-                <div style={{marginRight: '0px'}} className=" row justify-content-center pt-1">
+             <div className=" container mb-5">
+                <div style={{marginRight: '0px'}} className="main-content row justify-content-center pt-1 m-2">
                     <div className="col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xm-12 d-flex">
                         <img className="align-self-center img-round" style={{ height: '80%', width: '100%' }} src={mohanonda} alt="" />
                     </div>

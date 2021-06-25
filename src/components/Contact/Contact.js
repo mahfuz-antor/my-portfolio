@@ -16,6 +16,8 @@ const contact = () => {
 		emailjs.sendForm('service_75c5hgn', 'template_r1ts0nn', e.target, 'user_53bIQIeZqSPpp6xMbl0ta')
 			.then((result) => {
 				console.log(result.text);
+				alert('Your massage is submitted.Thank you.');
+				
 			}, (error) => {
 				console.log(error.text);
 			});
